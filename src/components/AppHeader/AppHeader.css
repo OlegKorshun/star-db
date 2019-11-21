@@ -1,0 +1,33 @@
+.appHeader {
+  margin-top: .5rem;
+  padding-left: 10px;
+}
+
+.appHeader ul li {
+  list-style: none;
+  margin: 0;
+  padding: .5rem 1rem;
+  border-radius: 3px;
+}
+
+.appHeader ul li:hover {
+  background-color: #444;
+}
+
+.appHeader a:hover {
+  text-decoration: none;
+}
+
+.appHeader h3 a {
+  color: white;
+}
+
+.appHeader h3 a:hover {
+  color: #00bc8c;
+}
+
+.appHeader button {
+  height: 2.2rem;
+  margin-top: 1px;
+  margin-left: 3px;
+}

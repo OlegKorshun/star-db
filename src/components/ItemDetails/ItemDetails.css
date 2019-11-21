@@ -1,0 +1,28 @@
+.itemDetails {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border: 1px solid #444;
+}
+
+.itemDetails .itemImage {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.itemDetails .list-group-item {
+  padding: .25rem;
+}
+
+.itemDetails .list-group-item .term {
+  margin-right: .5rem;
+}
+
+.itemDetails .card-body {
+  padding-top: 0;
+}
+
+.itemDetails button {
+  margin-top: 5px;
+}
