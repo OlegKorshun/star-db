@@ -65,7 +65,7 @@ export default class App extends Component {
     return (
       <ErrorBoundry>
         <SwapiServiceProvider value={swapiService}>
-          <Router>
+          <Router basename="/star-db">
             <div>
               <AppHeader onServiceChange={this.onServiceChange} />
               <RandomPlanet updateInterval={3000} />
