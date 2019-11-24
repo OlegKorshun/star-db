@@ -10,7 +10,7 @@ const PlanetsPage = ({ match, history }) => {
   return (
     <ErrorBoundry>
       <Row
-        left={<PlanetList onItemSelected={(id) => history.push(id)} />}
+        left={<PlanetList onItemSelected={(id) => history.push(id.toString())} />}
         right={<PlanetDetails itemId={id} />} />
     </ErrorBoundry>
   );

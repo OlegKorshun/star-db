@@ -7,7 +7,7 @@ import { StarshipList } from '../StarWarsComponents';
 const StarshipsPage = ({ history }) => {
   return (
     <ErrorBoundry>
-      <StarshipList onItemSelected={(id) => history.push(id)} />
+      <StarshipList onItemSelected={(id) => history.push(id.toString())} />
     </ErrorBoundry>
   );
 };
